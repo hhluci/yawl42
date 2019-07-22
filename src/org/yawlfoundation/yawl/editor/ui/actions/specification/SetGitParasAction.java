@@ -14,7 +14,7 @@ public class SetGitParasAction extends YAWLSpecificationAction implements Toolti
 	    putValue(Action.SHORT_DESCRIPTION,getDisabledTooltipText());
 	    putValue(Action.NAME, "Set");
 	    putValue(Action.LONG_DESCRIPTION, "Set git paras");
-	    putValue(Action.SMALL_ICON, getMenuIcon("page_white_gear"));
+	    putValue(Action.SMALL_ICON, getMenuIcon("page_white_gear1"));
 	    putValue(Action.MNEMONIC_KEY, new Integer(java.awt.event.KeyEvent.VK_0));
 	    putValue(Action.ACCELERATOR_KEY, MenuUtilities.getAcceleratorKeyStroke("0"));
 	  }

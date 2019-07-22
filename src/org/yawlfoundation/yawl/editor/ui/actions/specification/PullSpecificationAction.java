@@ -14,7 +14,7 @@ public class PullSpecificationAction extends YAWLSpecificationAction implements 
 	    putValue(Action.SHORT_DESCRIPTION,getDisabledTooltipText());
 	    putValue(Action.NAME, "Pull");
 	    putValue(Action.LONG_DESCRIPTION, "Pull from the remote branch");
-	    putValue(Action.SMALL_ICON, getMenuIcon("download-server-icon"));
+	    putValue(Action.SMALL_ICON, getMenuIcon("download-server-icon1"));
 	    putValue(Action.MNEMONIC_KEY, new Integer(java.awt.event.KeyEvent.VK_4));
 	    putValue(Action.ACCELERATOR_KEY, MenuUtilities.getAcceleratorKeyStroke("4"));
 	  }

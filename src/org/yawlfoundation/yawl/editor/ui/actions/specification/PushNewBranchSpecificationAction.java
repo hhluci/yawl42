@@ -14,7 +14,7 @@ public class PushNewBranchSpecificationAction extends YAWLSpecificationAction im
 	    putValue(Action.SHORT_DESCRIPTION,getDisabledTooltipText());
 	    putValue(Action.NAME, "Push New Branch");
 	    putValue(Action.LONG_DESCRIPTION, "Push to a new branch");
-	    putValue(Action.SMALL_ICON, getMenuIcon("upload-server-icon"));
+	    putValue(Action.SMALL_ICON, getMenuIcon("upload-server-icon2"));
 	    putValue(Action.MNEMONIC_KEY, new Integer(java.awt.event.KeyEvent.VK_6));
 	    putValue(Action.ACCELERATOR_KEY, MenuUtilities.getAcceleratorKeyStroke("6"));
 	  }

@@ -14,7 +14,7 @@ public class PushSpecificationAction extends YAWLSpecificationAction implements 
 	    putValue(Action.SHORT_DESCRIPTION,getDisabledTooltipText());
 	    putValue(Action.NAME, "Push");
 	    putValue(Action.LONG_DESCRIPTION, "Push to the remote branch");
-	    putValue(Action.SMALL_ICON, getMenuIcon("upload-server-icon"));
+	    putValue(Action.SMALL_ICON, getMenuIcon("upload-server-icon1"));
 	    putValue(Action.MNEMONIC_KEY, new Integer(java.awt.event.KeyEvent.VK_3));
 	    putValue(Action.ACCELERATOR_KEY, MenuUtilities.getAcceleratorKeyStroke("3"));
 	  }

@@ -14,7 +14,7 @@ public class CommitSpecificationAction extends YAWLSpecificationAction implement
 	    putValue(Action.SHORT_DESCRIPTION,getDisabledTooltipText());
 	    putValue(Action.NAME, "Commit");
 	    putValue(Action.LONG_DESCRIPTION, "Commit the specification file");
-	    putValue(Action.SMALL_ICON, getMenuIcon("disk"));
+	    putValue(Action.SMALL_ICON, getMenuIcon("disk1"));
 	    putValue(Action.MNEMONIC_KEY, new Integer(java.awt.event.KeyEvent.VK_2));
 	    putValue(Action.ACCELERATOR_KEY, MenuUtilities.getAcceleratorKeyStroke("2"));
 	  }

@@ -14,7 +14,7 @@ public class CloneSpecificationFromGitAction extends YAWLSpecificationAction imp
 	    putValue(Action.SHORT_DESCRIPTION,getDisabledTooltipText());
 	    putValue(Action.NAME, "Clone");
 	    putValue(Action.LONG_DESCRIPTION, "Clone an existing specification from git");
-	    putValue(Action.SMALL_ICON, getMenuIcon("folder_git"));
+	    putValue(Action.SMALL_ICON, getMenuIcon("folder_git1"));
 	    putValue(Action.MNEMONIC_KEY, new Integer(java.awt.event.KeyEvent.VK_1));
 	    putValue(Action.ACCELERATOR_KEY, MenuUtilities.getAcceleratorKeyStroke("1"));
 	  }
